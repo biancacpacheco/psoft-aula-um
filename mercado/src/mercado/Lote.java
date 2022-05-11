@@ -1,3 +1,5 @@
+package mercado;
+
 public class Lote {
     private String id;
     private Product product;
@@ -10,7 +12,7 @@ public class Lote {
     }
 
     public String toString(){
-        return(product + ": " + id + "- " + quantity + "unidade(s) disponíveis");
+        return(product + ": " + id + "- " + quantity + " unidade(s) disponíveis");
     }
 
     public String getId() {
