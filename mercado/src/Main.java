@@ -1,4 +1,5 @@
-package mercado;
+import mercado.Lote;
+import mercado.Product;
 
 public class Main {
     public static void main(String[] args) {

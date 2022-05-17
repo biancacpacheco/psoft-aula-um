@@ -31,4 +31,11 @@ public class ProductService {
 		}
 		return prodsOk;
 	}
+
+	public List<Product> listarProdByName(String nome) {
+		List<Product> prods = prodRep.getAll();
+		List<Product> prodsOk = getProdsByName(nome,prods);
+		return prodsOk;
+	}
 }
+

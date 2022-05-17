@@ -39,4 +39,11 @@ public class ProductRep {
 		return listaProdutos;
 	}
 
+	public List<Product> getAll() {
+		List<Product> all = new ArrayList<Product>();
+		for(Product p : produtos.values()){
+			all.add(p);
+		}
+		return all;
+	}
 }
